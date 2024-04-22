@@ -78,7 +78,6 @@ const addImages = images
     )
     .join("");
 list.insertAdjacentHTML("beforeend", addImages);
-const tagsImg = document.getElementsByClassName("gallery-image");
 list.addEventListener('click', function (event) {
     event.preventDefault();
     if (event.target.tagName === 'IMG') {
